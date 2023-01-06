@@ -1,7 +1,28 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using FinalProject.Data;
+using System.Configuration;
+using System;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddControllers();
+builder.Services.AddDbContext<FinalProjectContext>(option => option.UseSqlite(builder.Configuration.GetConnectionString("FinalProjectContext")));
+
+void CreateDbIfNotExists(IHost host)
+{
+    using (var scope = host.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        var context = services.GetRequiredService<FinalProjectContext>();
+        Dbinitializer.Initialize(context);
+    }
+}
 
 var app = builder.Build();
 
@@ -19,6 +40,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+CreateDbIfNotExists(app);
 
 app.MapRazorPages();
 
