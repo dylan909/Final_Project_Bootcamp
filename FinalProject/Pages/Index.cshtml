@@ -11,23 +11,19 @@
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Id</th>
                 <th scope="col">Name</th>
-                <th scope="col">Age</th>
-                <th scope="col">FavProgrammingLang</th>
-                <th scope="col">CurrentlyEnrolled</th>
+                <th scope="col">Stadium</th>
+                <th scope="col">Founded</th>
             </tr>
         </thead>
-        @foreach (var item in Model.Apprentices!)
+        @foreach (var item in Model.Teams!)
         {
             <tbody>
                 <tr>
                     <th scope="row">@count</th>
-                    <td>@item.Id</td>
                     <td>@item.Name</td>
-                    <td>@item.Age</td>
-                    <td>@item.FavProgrammingLang</td>
-                    <td>@item.CurrentlyEnrolled</td>
+                    <td>@item.Stadium</td>
+                    <td>@item.Founded</td>
                 </tr>
             </tbody>
             count += 1;
