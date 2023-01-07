@@ -3780,26 +3780,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevinj\\.nuget\\packages\\": {}
+    "/Users/dylankennedy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj",
-      "packagesPath": "C:\\Users\\kevinj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\obj\\",
+      "projectPath": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/FinalProject.csproj",
+      "packagesPath": "/Users/dylankennedy/.nuget/packages/",
+      "outputPath": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kevinj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dylankennedy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3852,7 +3850,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

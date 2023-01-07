@@ -18,7 +18,7 @@ namespace FinalProject.Pages.Players
         }
 
         [BindProperty]
-        public FinalProject.Model.Players playingplayers { get; set; }
+        public FinalProject.Model.Players? playingplayers { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
@@ -30,10 +30,10 @@ namespace FinalProject.Pages.Players
             {
                 playingplayers = await _context.allplayers.FindAsync(id);
 
-                if (playingplayers == null)
-                {
-                    return NotFound();
-                }
+                //if (playingplayers == null)
+                //{
+                //    return NotFound();
+                //}
             }
             return Page();
         }

@@ -1,0 +1,46 @@
+﻿@page
+@model FinalProject.Pages.Teams.IndexModel
+@{
+    ViewData["Title"] = "Team page";
+}
+
+<div class="jumbotron p-3">
+    <div class="d-flex align-items-center">
+        <h1 class="display-4 flex-grow-1">
+            Player List
+        </h1>
+        <a class="btn btn-primary btn-sm" asp-page="../Players/Edit">
+            Create
+        </a>
+    </div>
+</div>
+
+
+<div class="d-flex bg-primary text-white">
+    <div class="p-2" style="flex:0 0 10%">
+        Name
+    </div>
+    <div class="p-2" style="flex:0 0 25%">
+        Options
+    </div>
+</div>
+@foreach (var item in Model.Teams)
+{
+    <div class="d-flex border-left border-right border-bottom border-primary">
+        <div class="p-2" style="flex:0 0 10%">
+            @item.Name
+        </div>
+        <form method="post" class="p-2 btn-group" style="flex:0 0 25%; float:right;" role="group">
+            <a class="btn btn-primary btn-sm" asp-page="./Detail" asp-route-id="@item.TeamsId">
+                Details
+            </a>
+            <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-id="@item.TeamsId">
+
+                Edit
+            </a>
+            <input type="submit" value="Delete" class="btn btn-danger btn-sm" />
+
+            <input type="hidden" name="ID" value="@item.TeamsId" />
+        </form>
+    </div>
+}

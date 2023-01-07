@@ -1,15 +1,49 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
 
-    <a class="btn btn-primary btn-sm" asp-page="./Players/Index">
-        Go to Player List
-    </a>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid" style="height: 80vh; display: flex; align-items: center; flex-direction: column; justify-content: space-evenly;">
+    <div class="row">
+        <div class="col">
+            <h1>Welcome to out project!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div style="margin-bottom: 116px;">
+            <h3 style="text-align:center;">What we learned.</h3>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Technologies learned</th>
+                        <th scope="col">Contribution to project</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Kevin</th>
+                        <td>c#, Entity, .NET core</td>
+                        <td>API methods</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Rachel</th>
+                        <td>c#, Entity, .NET core</td>
+                        <td>Making presentation</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Dylan</th>
+                        <td>c#, Entity, bootstrap .NET core</td>
+                        <td>Making Database, setting up GitHub, RazorPages, API Methods, WireFraming, database Diagram, routing</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bilal</th>
+                        <td>c#, Entity, .NET core</td>
+                        <td>MiddleWear</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-

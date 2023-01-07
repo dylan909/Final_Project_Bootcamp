@@ -12,5 +12,9 @@ namespace FinalProject.Model
 		public string? Position { get; set; }
 		public int Goals { get; set; }
 
+        public static implicit operator Players?(Teams? v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
