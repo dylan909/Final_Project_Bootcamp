@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rachela\\Source\\Repos\\Final_Project_Bootcamp\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rachela\\Source\\Repos\\Final_Project_Bootcamp\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rachela\\Source\\Repos\\Final_Project_Bootcamp\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "C:\\Users\\rachela\\Source\\Repos\\Final_Project_Bootcamp\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\rachela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rachela\\Source\\Repos\\Final_Project_Bootcamp\\FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\kevinj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevinj\\Desktop\\proj2\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rachela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevinj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

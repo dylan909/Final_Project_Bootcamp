@@ -11,7 +11,7 @@ namespace FinalProject.Data
         {
 
         }
-        public DbSet<Players> players { get; set; }
+        public DbSet<Players> allplayers { get; set; }
         public DbSet<Teams> teams { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

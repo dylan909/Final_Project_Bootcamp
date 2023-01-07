@@ -1,0 +1,53 @@
+﻿@page "{id?}"
+@model FinalProject.Pages.Players.EditModel
+@{
+    ViewData["Title"] = "Player Edit";
+}
+<div class="jumbotron p-3">
+  <div class="d-flex align-items-center">
+    <h1 class="display-4 flex-grow-1">
+      Player Edit
+    </h1>
+    <a class="btn btn-primary btn-sm" asp-page="./Index">
+      Back to List
+    </a>
+  </div>
+</div>
+
+<form method="post">
+  <div class="form-group d-flex">
+  <label asp-for="playingplayers.PlayersId" class="p-2 text-right" style="flex:0 0 15%"></label>
+ <input asp-for="playingplayers.PlayersId" class="form-control" style="flex:1 0 auto;width:auto" />
+</div>
+
+    <div class="form-group d-flex">
+        <label asp-for="playingplayers.Name" class="p-2 text-right" style="flex:0 0 15%"></label>
+        <input asp-for="playingplayers.Name" class="form-control" style="flex:1 0 auto;width:auto" />
+    </div>
+
+    <div class="form-group d-flex">
+        <label asp-for="playingplayers.Age" class="p-2 text-right" style="flex:0 0 15%"></label>
+        <input asp-for="playingplayers.Age" class="form-control" style="flex:1 0 auto;width:auto" />
+    </div>
+
+    <div class="form-group d-flex">
+        <label asp-for="playingplayers.OnForm" class="p-2 text-right" style="flex:0 0 15%"></label>
+        <input asp-for="playingplayers.OnForm" class="form-control" style="flex:1 0 auto;width:auto" />
+    </div>
+
+    <div class="form-group d-flex">
+        <label asp-for="playingplayers.Position" class="p-2 text-right" style="flex:0 0 15%"></label>
+        <input asp-for="playingplayers.Position" class="form-control" style="flex:1 0 auto;width:auto" />
+    </div>
+
+    <div class="form-group d-flex">
+        <label asp-for="playingplayers.Goals" class="p-2 text-right" style="flex:0 0 15%"></label>
+        <input asp-for="playingplayers.Goals" class="form-control" style="flex:1 0 auto;width:auto" />
+    </div>
+
+    <div class="form-group d-flex flex-row-reverse">
+        <input type="submit" value="Save" class="btn btn-primary btn-sm" />
+    </div>
+</form>
+
+

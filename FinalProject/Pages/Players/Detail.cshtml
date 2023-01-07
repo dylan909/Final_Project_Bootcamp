@@ -1,0 +1,70 @@
+﻿@page
+@model FinalProject.Pages.Players.DetailModel
+@{
+    ViewData["Title"] = "Player Detail";
+}
+
+<div class="jumbotron p-3">
+    <div class="d-flex align-items-center">
+        <h1 class="display-4 flex-grow-1">
+            Player Detail
+        </h1>
+        <a class="btn btn-primary btn-sm" asp-page="./Index">
+            Back to List
+        </a>
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.PlayersId)
+    </div>
+    <div class="p-2 border-top border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.PlayersId)
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.Name)
+    </div>
+    <div class="p-2 border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.Name)
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.Age)
+    </div>
+    <div class="p-2 border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.Age)
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.OnForm)
+    </div>
+    <div class="p-2 border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.OnForm)
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.Position)
+    </div>
+    <div class="p-2 border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.Position)
+    </div>
+</div>
+
+<div class="d-flex">
+    <div class="p-2 bg-primary text-white text-right" style="flex:0 0 15%">
+        @Html.DisplayNameFor(model => model.allofplayers.Goals)
+    </div>
+    <div class="p-2 border-right border-bottom border-primary" style="flex:1 0 auto">
+        @Html.DisplayFor(model => model.allofplayers.Goals)
+    </div>
+</div>
