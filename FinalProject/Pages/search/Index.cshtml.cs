@@ -12,9 +12,8 @@ namespace razorPageFinalProject.Pages.search
     [BindProperties]
     public class IndexModel : PageModel
     {
-        public void OnGet()
-        {
-        }
+        //  GET the post based on Id and the dropdown choice
+
         public void OnPost()
         {
         }

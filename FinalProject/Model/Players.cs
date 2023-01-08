@@ -16,5 +16,10 @@ namespace FinalProject.Model
         {
             throw new NotImplementedException();
         }
+
+        //public static implicit operator Players?(Teams? v)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

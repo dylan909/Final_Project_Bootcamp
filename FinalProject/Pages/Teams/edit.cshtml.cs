@@ -33,10 +33,10 @@ namespace FinalProject.Pages.Teams
             {
                 playingTeams = await _context.teams.FindAsync(id);
 
-                if (playingTeams == null)
-                {
-                    return NotFound();
-                }
+                //if (playingTeams == null)
+                //{
+                //    return NotFound();
+                //}
             }
             return Page();
         }
@@ -50,7 +50,7 @@ namespace FinalProject.Pages.Teams
 
             if (id == null)
             {
-                _context.allplayers.Add(playingTeams);
+                _context.teams.Add(playingTeams);
             }
             else
             {
