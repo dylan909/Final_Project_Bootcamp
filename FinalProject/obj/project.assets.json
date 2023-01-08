@@ -3780,24 +3780,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/dylankennedy/.nuget/packages/": {}
+    "C:\\Users\\bilala\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\bilala\\Source\\Repos\\Final_Project_Bootcamp3\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/FinalProject.csproj",
-      "packagesPath": "/Users/dylankennedy/.nuget/packages/",
-      "outputPath": "/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/obj/",
+      "projectPath": "C:\\Users\\bilala\\Source\\Repos\\Final_Project_Bootcamp3\\FinalProject\\FinalProject.csproj",
+      "packagesPath": "C:\\Users\\bilala\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bilala\\Source\\Repos\\Final_Project_Bootcamp3\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/dylankennedy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bilala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3850,7 +3857,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

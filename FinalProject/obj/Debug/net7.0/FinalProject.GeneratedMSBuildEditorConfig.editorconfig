@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FinalProject
 build_property.RootNamespace = FinalProject
-build_property.ProjectDir = /Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/
+build_property.ProjectDir = C:\Users\bilala\Source\Repos\Final_Project_Bootcamp3\FinalProject\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject
+build_property.MSBuildProjectDirectory = C:\Users\bilala\Source\Repos\Final_Project_Bootcamp3\FinalProject
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Players/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxheWVycy9DcmVhdGUuY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Players/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxheWVycy9EZXRhaWwuY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Players/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Players/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxheWVycy9FZGl0LmNzaHRtbA==
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Players/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxheWVycy9JbmRleC5jc2h0bWw=
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/search/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvc2VhcmNoL0luZGV4LmNzaHRtbA==
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VhcmNoXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Teams/edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhbXMvZWRpdC5jc2h0bWw=
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Teams/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcZWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Teams/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhbXMvSW5kZXguY3NodG1s
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Teams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dylankennedy/Projects/Error/Final_Project_Bootcamp/FinalProject/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-tlmnuglvi4
+[C:/Users/bilala/Source/Repos/Final_Project_Bootcamp3/FinalProject/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-srxpow6wk7
